@@ -5,4 +5,8 @@ module.exports = {
     page: true,
     REACT_APP_ENV: true,
   },
+  rules: {
+    'object-curly-spacing': ['error', 'always'],
+    'comma-spacing': ['error', { before: false, after: true }],
+  },
 };
